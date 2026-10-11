@@ -1,0 +1,16 @@
+{
+  "_provenance": "Real Gemma output captured from an earlier run of scripts/step2_prompt_check.py (1h / transit / curious), before the duration rule was made structural. Kept deliberately: it is a genuine model reply that VIOLATES the 7.8 duration rule. Chosen candidate ChIJgarden03 had activity_minutes_available = 30, but the card claims duration_minutes = 60, which is budget_minutes. This is the regression fixture for tests/test_validate.py.",
+  "_expected_failure": "duration 60 > activity_minutes_available 30",
+  "candidate_id": "ChIJgarden03",
+  "title": "Botanischer Garten",
+  "duration_minutes": 60,
+  "getting_there": "Take public transit to the garden. The ride takes about 15 minutes.",
+  "plan": [
+    "Walk to the botanical garden.",
+    "View the labelled plant collections.",
+    "Visit the glasshouse."
+  ],
+  "tip": "The weather is mild today at 14°C.",
+  "leave_by": "16:12",
+  "check_before_you_go": "Check for any specific entrance rules for the glasshouse."
+}

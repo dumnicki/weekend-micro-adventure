@@ -1,0 +1,126 @@
+{
+  "_comment": "Hand-written fake candidates for the Step 2 prompt check. Base place data only. distance_km, travel_minutes_one_way and activity_minutes_available are derived per-request by scripts/step2_prompt_check.py using the PLAN.md 7.3 math, because they depend on transport and time_budget.",
+  "_origin": { "name": "Vienna, Austria", "lat": 48.210033, "lng": 16.363449 },
+  "places": [
+    {
+      "id": "ChIJpark01",
+      "name": "Prater Stadtpark",
+      "type": "park",
+      "address": "Parkring, 1020 Wien",
+      "lat": 48.205167,
+      "lng": 16.340083,
+      "rating": 4.5,
+      "reviews": 8420,
+      "description": "Large public park with wide lawns, mature trees and a small pond.",
+      "hours_text": "Open 24 hours"
+    },
+    {
+      "id": "ChIJtrail02",
+      "name": "Wienerwald Trailhead",
+      "type": "hiking trail",
+      "address": "Am Schuetzenweg, 1140 Wien",
+      "lat": 48.119722,
+      "lng": 16.246111,
+      "rating": 4.7,
+      "reviews": 2210,
+      "description": null,
+      "hours_text": null
+    },
+    {
+      "id": "ChIJgarden03",
+      "name": "Botanischer Garten",
+      "type": "botanical garden",
+      "address": "Ob. der Bastionstrasse, 1020 Wien",
+      "lat": 48.198361,
+      "lng": 16.363056,
+      "rating": 4.6,
+      "reviews": 5140,
+      "description": "Botanical garden with labelled plant collections and a glasshouse.",
+      "hours_text": "Open daily 09:00-18:00"
+    },
+    {
+      "id": "ChIJlake04",
+      "name": "Donaukanal Badesee",
+      "type": "lake",
+      "address": "Donaukanal, 1020 Wien",
+      "lat": 48.232778,
+      "lng": 16.369167,
+      "rating": 4.1,
+      "reviews": 980,
+      "description": "Riverside swimming area on the Danube canal.",
+      "hours_text": "Open 09:00-20:00"
+    },
+    {
+      "id": "ChIJview05",
+      "name": "Naturparkzentrum Dorongau",
+      "type": "nature reserve",
+      "address": "Dorongasse, 1190 Wien",
+      "lat": 48.244722,
+      "lng": 16.375000,
+      "rating": null,
+      "reviews": 310,
+      "description": "Small nature reserve and observation area on the edge of the city.",
+      "hours_text": null
+    },
+    {
+      "id": "ChIJwoods06",
+      "name": "Lainzer Radlberg Forst",
+      "type": "forest",
+      "address": "Lainzer Forst, 1130 Wien",
+      "lat": 48.188889,
+      "lng": 16.276389,
+      "rating": 4.4,
+      "reviews": 1560,
+      "description": "Woodland with marked walking paths.",
+      "hours_text": "Open 08:00-19:00"
+    },
+    {
+      "id": "ChIJriver07",
+      "name": "Donauinsel West",
+      "type": "river",
+      "address": "Donauinsel, 1210 Wien",
+      "lat": 48.230000,
+      "lng": 16.421389,
+      "rating": 4.3,
+      "reviews": 2640,
+      "description": "Flat island strip between river branches, used for cycling and walking.",
+      "hours_text": "Open 24 hours"
+    },
+    {
+      "id": "ChIJpark09",
+      "name": "Stadtgarten am Graben",
+      "type": "park",
+      "address": "Graben, 1010 Wien",
+      "lat": 48.216330,
+      "lng": 16.367490,
+      "rating": 4.0,
+      "reviews": 460,
+      "description": "Small planted square with benches and mature plane trees.",
+      "hours_text": "Open 24 hours"
+    },
+    {
+      "id": "ChIJgarden10",
+      "name": "Horti Mirabilis",
+      "type": "botanical garden",
+      "address": "Johann-Strauss-Gasse, 1030 Wien",
+      "lat": 48.218533,
+      "lng": 16.367149,
+      "rating": 4.5,
+      "reviews": 320,
+      "description": "Small private garden open to visitors on weekday afternoons.",
+      "hours_text": "Open Mon-Fri 14:00-17:00"
+    },
+    {
+      "id": "ChIJbeach08",
+      "name": "Krapfenwaldbadufer",
+      "type": "beach",
+      "address": "Krapfenwaldlände, 12010 Wien",
+      "lat": 48.227500,
+      "lng": 16.400000,
+      "rating": 4.2,
+      "reviews": 740,
+      "description": "Riverside recreation area with sandy shore.",
+      "hours_text": "Open 08:00-19:00"
+    }
+  ]
+}

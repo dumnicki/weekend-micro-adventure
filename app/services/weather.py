@@ -39,6 +39,10 @@ class Weather:
     summary: str
     sunrise_next_day: str | None = None
     sunset_next_day: str | None = None
+    # Seconds to add to UTC for the location's local time. The daylight maths in 7.6
+    # needs "now" as the user experiences it, which is the destination's clock, not the
+    # server's. Without this the trip would be planned against the wrong sunset.
+    utc_offset_seconds: int = 0
 
 
 def _hhmm(iso_value: str) -> str:
@@ -102,6 +106,7 @@ def build_weather(payload: dict) -> Weather | None:
         summary=summary,
         sunrise_next_day=_hhmm(sunrise_next) if sunrise_next else None,
         sunset_next_day=_hhmm(sunset_next) if sunset_next else None,
+        utc_offset_seconds=int(payload.get("utc_offset_seconds") or 0),
     )
 
 

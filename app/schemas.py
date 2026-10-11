@@ -94,3 +94,14 @@ class AdventureResponse(BaseModel):
     lng: float
     maps_link: str
     weather_summary: str | None = None
+    # True when the model failed twice and PLAN.md 7.9's template card was used instead.
+    # Not in the section 6.3 contract, but without it there is no way to tell from the
+    # outside whether Gemma actually wrote the card. The demo story depends on that.
+    used_fallback: bool = False
+
+
+class EmptyResponse(BaseModel):
+    """PLAN.md 7.5. HTTP 200 with no card, so the client shows a message not an error."""
+
+    empty: bool = True
+    message: str

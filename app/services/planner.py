@@ -18,6 +18,7 @@ from pathlib import Path
 from typing import Any
 
 from app.schemas import AdventureRequest, AdventureResponse, Candidate
+from app.config import settings
 from app.services.candidates import (
     DaylightWindow,
     budget_for,
@@ -42,6 +43,23 @@ EMPTY_MESSAGE = "Nothing good nearby for that. Try a longer time or another tran
 NO_DAYLIGHT_RETURN = "23:59"
 
 GenerateJson = Callable[[str, str], Awaitable[dict[str, Any]]]
+
+# One cache for the whole process. A cache created per call would be empty every time,
+# so every request and every re-roll would spend SerpApi quota for nothing.
+_shared_cache: TTLCache | None = None
+
+
+def get_places_cache() -> TTLCache:
+    global _shared_cache
+    if _shared_cache is None:
+        _shared_cache = TTLCache(ttl_seconds=settings.cache_ttl_seconds)
+    return _shared_cache
+
+
+def reset_places_cache() -> None:
+    """Drop cached searches. Used by tests and by the cache TTL in long runs."""
+    global _shared_cache
+    _shared_cache = None
 
 
 @dataclass
@@ -239,8 +257,7 @@ async def plan_adventure(
 
     # 7.4 places. At most two queries per request.
     raw_places: list[dict[str, Any]] = []
-    if cache is None:
-        cache = TTLCache(ttl_seconds=3600)
+    cache = cache or get_places_cache()
     for query in queries_for_vibe(request.vibe):
         raw_places.extend(
             await search_places(origin.lat, origin.lng, query, cache=cache, client=http_client)

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Weekend Micro-Adventure</title>
+<meta name="description" content="One screen. One place. Go outside.">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<main class="app">
+  <header class="head">
+    <h1>Weekend Micro-Adventure</h1>
+    <p class="tagline">One screen. Then outside.</p>
+  </header>
+
+  <section class="controls" aria-label="Choose your adventure">
+
+    <div class="field">
+      <label class="label" for="location">Where from?</label>
+      <div class="location-row">
+        <input id="location" name="location" type="text" autocomplete="off"
+               placeholder="City or address" enterkeyhint="search">
+        <button type="button" id="use-location" class="ghost">Use my location</button>
+      </div>
+      <p class="hint" id="location-hint" hidden></p>
+    </div>
+
+    <fieldset class="group">
+      <legend class="label">Time</legend>
+      <div class="segmented" role="group" aria-label="Time budget">
+        <button type="button" data-group="time_budget" data-value="1h" aria-pressed="false">1 hour</button>
+        <button type="button" data-group="time_budget" data-value="half_day" aria-pressed="true">Half day</button>
+        <button type="button" data-group="time_budget" data-value="full_day" aria-pressed="false">Full day</button>
+      </div>
+    </fieldset>
+
+    <fieldset class="group">
+      <legend class="label">Getting there</legend>
+      <div class="segmented" role="group" aria-label="Transport">
+        <button type="button" data-group="transport" data-value="foot" aria-pressed="true">On foot</button>
+        <button type="button" data-group="transport" data-value="bike" aria-pressed="false">Bike</button>
+        <button type="button" data-group="transport" data-value="transit" aria-pressed="false">Transit</button>
+      </div>
+    </fieldset>
+
+    <fieldset class="group">
+      <legend class="label">Vibe</legend>
+      <div class="segmented" role="group" aria-label="Vibe">
+        <button type="button" data-group="vibe" data-value="quiet" aria-pressed="true">Quiet</button>
+        <button type="button" data-group="vibe" data-value="active" aria-pressed="false">Active</button>
+        <button type="button" data-group="vibe" data-value="curious" aria-pressed="false">Curious</button>
+      </div>
+    </fieldset>
+
+    <button type="button" id="send" class="primary">Send me out</button>
+  </section>
+
+  <section id="result" class="result" aria-live="polite" aria-busy="false"></section>
+
+  <footer class="foot">
+    <p id="timer" class="timer">Time on screen: 0s</p>
+  </footer>
+</main>
+
+<template id="tpl-card">
+  <article class="card">
+    <p class="card-weather" data-field="weather"></p>
+    <h2 class="card-title" data-field="title"></h2>
+    <p class="card-place" data-field="place"></p>
+
+    <dl class="card-meta">
+      <div><dt>Time there</dt><dd data-field="duration"></dd></div>
+      <div><dt>Leave by</dt><dd class="leave-by" data-field="leave_by"></dd></div>
+    </dl>
+
+    <p class="card-getting" data-field="getting_there"></p>
+
+    <ol class="card-plan" data-field="plan"></ol>
+
+    <p class="card-tip"><strong>Tip.</strong> <span data-field="tip"></span></p>
+    <p class="card-check" data-field="check"></p>
+
+    <a class="maps" data-field="maps" target="_blank" rel="noopener noreferrer">Open in Maps</a>
+
+    <div class="card-actions">
+      <button type="button" id="reroll" class="ghost">Not feeling it</button>
+    </div>
+  </article>
+</template>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

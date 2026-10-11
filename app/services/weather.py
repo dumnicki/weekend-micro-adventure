@@ -26,13 +26,19 @@ logger = logging.getLogger(__name__)
 
 @dataclass(frozen=True)
 class Weather:
-    """What the planner and the card need. All times are local to the location."""
+    """What the planner and the card need. All times are local to the location.
+
+    The next-day values exist for PLAN.md 7.6, which falls back to tomorrow's window
+    once today's latest return time has passed.
+    """
 
     sunset_local: str
     sunrise_local: str
     temp_c: float
     rain_chance_percent: int
     summary: str
+    sunrise_next_day: str | None = None
+    sunset_next_day: str | None = None
 
 
 def _hhmm(iso_value: str) -> str:
@@ -44,6 +50,13 @@ def _first(series: object) -> object | None:
     """First value of an Open-Meteo daily list, or None when empty or absent."""
     if isinstance(series, list) and series:
         return series[0]
+    return None
+
+
+def _second(series: object) -> object | None:
+    """Second value of an Open-Meteo daily list. Used for the next-day window."""
+    if isinstance(series, list) and len(series) > 1:
+        return series[1]
     return None
 
 
@@ -78,12 +91,17 @@ def build_weather(payload: dict) -> Weather | None:
         summary += f", {rain}% rain chance"
     summary += f", sunset {sunset}"
 
+    sunrise_next = _second(daily.get("sunrise"))
+    sunset_next = _second(daily.get("sunset"))
+
     return Weather(
         sunset_local=sunset,
         sunrise_local=sunrise,
         temp_c=temp_c,
         rain_chance_percent=rain if rain is not None else 0,
         summary=summary,
+        sunrise_next_day=_hhmm(sunrise_next) if sunrise_next else None,
+        sunset_next_day=_hhmm(sunset_next) if sunset_next else None,
     )
 
 

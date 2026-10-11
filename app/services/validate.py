@@ -38,6 +38,20 @@ CARD_FIELDS = (
 )
 TEXT_FIELDS = ("title", "getting_there", "tip", "check_before_you_go")
 
+# Gemma sometimes fills a field with a literal null marker instead of prose. Those are
+# non-empty strings, so no structural rule catches them, but "None" printed as
+# check_before_you_go is worse than useless to whoever reads the card. Only the whole
+# field matching counts; a sentence that merely contains the word "none" is fine.
+NULL_MARKERS = frozenset(
+    {"none", "null", "nil", "n/a", "na", "-", "--", "unknown", "tbd", "."}
+)
+
+
+def _is_blank(value: object) -> bool:
+    """Empty, whitespace only, or a bare null marker."""
+    text = str(value or "").strip()
+    return not text or text.casefold() in NULL_MARKERS
+
 
 @dataclass
 class ValidationResult:
@@ -85,8 +99,8 @@ def validate_card(
         )
 
     for name in TEXT_FIELDS:
-        if not str(raw[name] or "").strip():
-            errors.append(f"'{name}' is empty")
+        if _is_blank(raw[name]):
+            errors.append(f"'{name}' is empty or a null marker")
 
     title = str(raw["title"] or "")
     if len(title) > MAX_TITLE_CHARS:
@@ -99,8 +113,8 @@ def validate_card(
         errors.append(f"'plan' has {len(plan)} steps, must be {MIN_PLAN_STEPS}-{MAX_PLAN_STEPS}")
     else:
         for index, step in enumerate(plan, start=1):
-            if not str(step or "").strip():
-                errors.append(f"'plan' step {index} is empty")
+            if _is_blank(step):
+                errors.append(f"'plan' step {index} is empty or a null marker")
                 break
 
     duration = raw["duration_minutes"]

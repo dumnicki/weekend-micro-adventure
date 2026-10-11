@@ -187,7 +187,32 @@ def test_duration_must_be_a_positive_whole_number(duration):
 def test_empty_text_field_is_rejected(field):
     result = validate_card(base_card(**{field: "   "}), [make_candidate()], LATEST_RETURN)
     assert not result.ok
-    assert f"'{field}' is empty" in result.error_text()
+    assert f"'{field}' is empty or a null marker" in result.error_text()
+
+
+@pytest.mark.parametrize("marker", ["None", "null", "N/A", "nil", "unknown", "-", "."])
+def test_literal_null_markers_are_rejected(marker):
+    """Gemma writes these into prose fields. Structurally non-empty, useless on a card."""
+    result = validate_card(base_card(check_before_you_go=marker), [make_candidate()], LATEST_RETURN)
+    assert not result.ok
+    assert "null marker" in result.error_text()
+
+
+@pytest.mark.parametrize("marker", ["None", "N/A"])
+def test_null_markers_are_rejected_in_plan_steps(marker):
+    result = validate_card(base_card(plan=["Walk there.", marker]), [make_candidate()], LATEST_RETURN)
+    assert not result.ok
+    assert "null marker" in result.error_text()
+
+
+def test_a_sentence_containing_none_is_fine():
+    """Only a whole-field match counts. "None of the paths are lit." is real prose."""
+    result = validate_card(
+        base_card(check_before_you_go="None of the side paths are lit after sunset."),
+        [make_candidate()],
+        LATEST_RETURN,
+    )
+    assert result.ok, result.error_text()
 
 
 # ------------------------------------------------------------------- structural cases

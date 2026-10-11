@@ -1,0 +1,28 @@
+services:
+  - type: web
+    name: micro-adventure
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.4
+      - key: SERPAPI_API_KEY
+        sync: false
+      - key: BACKBOARD_API_KEY
+        sync: false
+      - key: BACKBOARD_MODEL
+        sync: false
+      - key: BACKBOARD_PROVIDER
+        sync: false
+      - key: APP_ENV
+        value: prod
+      # Not in the plan's sample, but the quota protection should not rely on a
+      # default nobody has looked at. Cached searches are what stop the re-roll
+      # button spending SerpApi credit.
+      - key: CACHE_TTL_SECONDS
+        value: 3600
+      - key: LLM_TIMEOUT_SECONDS
+        value: 30

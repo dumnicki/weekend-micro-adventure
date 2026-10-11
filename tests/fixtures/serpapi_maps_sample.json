@@ -1,0 +1,891 @@
+{
+  "search_metadata": {
+    "id": "6acbf15b3d0e4e432d4b9f66",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/SzjKq3tR8s68iWhxUpNADusSBhrJAjhSLqK1TacxdYo/6acbf15b3d0e4e432d4b9f66.json",
+    "markdown_endpoint": "https://serpapi.com/searches/SzjKq3tR8s68iWhxUpNADusSBhrJAjhSLqK1TacxdYo/6acbf15b3d0e4e432d4b9f66.md",
+    "created_at": "2026-10-11 20:28:11 UTC",
+    "processed_at": "2026-10-11 20:28:11 UTC",
+    "google_maps_url": "https://www.google.com/maps/search/quiet+park/@48.20849,16.37208,14z/data=!3m1!4b1!4m2!2m1!6e5?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/SzjKq3tR8s68iWhxUpNADusSBhrJAjhSLqK1TacxdYo/6acbf15b3d0e4e432d4b9f66.html",
+    "prettify_html_file": "https://serpapi.com/searches/SzjKq3tR8s68iWhxUpNADusSBhrJAjhSLqK1TacxdYo/6acbf15b3d0e4e432d4b9f66.prettify",
+    "total_time_taken": 0.88
+  },
+  "search_parameters": {
+    "engine": "google_maps",
+    "type": "search",
+    "q": "quiet park",
+    "ll": "@48.20849,16.37208,14z",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "search_information": {
+    "local_results_state": "Results for exact spelling",
+    "query_displayed": "quiet park"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "title": "Planquadratpark",
+      "place_id": "ChIJU0SX9JEHbUcRReINMpMU-oc",
+      "data_id": "0x476d0791f4974453:0x87fa1493320de245",
+      "data_cid": "9798166561730454085",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d0791f4974453%3A0x87fa1493320de245&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d0791f4974453%3A0x87fa1493320de245&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.1966253,
+        "longitude": 16.3640801
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJU0SX9JEHbUcRReINMpMU-oc",
+      "provider_id": "/g/11hdqp6488",
+      "rating": 4.8,
+      "reviews": 31,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Schikanedergasse 3, 1040 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "phone": "+43 1 40004001",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdbQm45M6eN7vKQS-jw4QAt1EdExCpK1Tfkakvfp1E4R7Isg4jy2zBAJHMYUu3cJOhF-u8XauCFT0JiDCZEJjzXEfledaa3t4aZ30dtmzTqar7gm0UMhkBorYSyfAtmsAOID0mT=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/HrdRQHicHcRdDoIgAADgE5GYlK2tBzRaWdYs26o3QoRUxAT78YKdodu09T1834-0tjFTx6mkNxBai4p3hrdM15bXdsC0ckRLjQHMOBgHpdpk10ShUTzmW_-xTg6geKIEW5dk5BU2azfNS1o-8sYlaO-vjEDFe9gHOFrG52PnsWgnF6CbnGgXLlIY3ebhhURFfyJ5xTNKPYvoxYOZVX16p60vFDzGsgx0ez68c2yVwbvVHKp09nQhhED-Z6D-ATQgRJA"
+    },
+    {
+      "position": 2,
+      "title": "Joe-Zawinul-Park",
+      "place_id": "ChIJez-uOdEHbUcR4dxvaLSOfYg",
+      "data_id": "0x476d07d139ae3f7b:0x887d8eb4686fdce1",
+      "data_cid": "9835174066744450273",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d07d139ae3f7b%3A0x887d8eb4686fdce1&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d07d139ae3f7b%3A0x887d8eb4686fdce1&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.1942862,
+        "longitude": 16.3990935
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJez-uOdEHbUcR4dxvaLSOfYg",
+      "provider_id": "/g/11jl0c9f_6",
+      "rating": 4.3,
+      "reviews": 27,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Klopsteinpl., 1030 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLcKmVt159J2WUcImg5RMj0njBZLrz_9ueW8UsZcN1a9kPr7wBN4Ord8wLDdIaDY-3EDywfcJ98TwKgEJqxyHMnJWNfrriZcI1N0Yxh2fwtnzDB3iB8H5ItcpKhxuvveyi6iQnfL=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/gCCrinicHcRLDoIwFADAEyFFRMHEhQ0m_MRPVCIbQx6lRaVoWyx4Qc_gbUycxXw_TKmHnJvmndkj2rb0TjpJBLRcEa5G0DYmFYWUBkhzucS3JoG4OSnL8aJxdoSwoc5-fUX8ivNEvC9eRzL3KHNIrcK7bcVM43SyEaWrE78MC_9s2Ct_0BVEnnvQMV1Fz34I1jzK0kqIOofQStG5Z-NKK_72sV1jN3BCBY-Y9d3rRYZ6Wu94lSy0hRAy2H8w-A9440WM"
+    },
+    {
+      "position": 3,
+      "title": "Hügel Park",
+      "place_id": "ChIJWWWMt3anbUcRn8OgteHHeL4",
+      "data_id": "0x476da776b78c6559:0xbe78c7e1b5a0c39f",
+      "data_cid": "13724939636640367519",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476da776b78c6559%3A0xbe78c7e1b5a0c39f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476da776b78c6559%3A0xbe78c7e1b5a0c39f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.185157499999995,
+        "longitude": 16.287043
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWWWMt3anbUcRn8OgteHHeL4",
+      "provider_id": "/g/11h1t0b5q",
+      "rating": 4.6,
+      "reviews": 160,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park",
+        "Playground"
+      ],
+      "address": "1130 Wien, Austria",
+      "country": "Austria",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLej4ORMeK9pyCTeM1kaz4XZagQkZklGKeN7NoGL5ZHbJhkFbVToaQQVZOFo538jTl19-mq7JC_MtdtqMv3u6b6uJcvipbLz7kgw8ETuD8utftiZllQauIH5D8TWiYR4tyj5gwkNAw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/SAmp2nicHcTbboIwGADgJ0IggOCSXTAPMAQMpvHQG1O6rkALRftXom_oI_g2S_ZdfO9XAzDqD9uWjTfjSnHJjGY3qgZgA8yo6m1-I1pbVNtx_CX6nHX-bl-w7WJ8LBErXEGe_gkTXgksZLJlZViqJA9wWmeN2NQHpEhVHfBuowIv6pB0F1Z_DbPlpYAfuBZ3z8zrucnovR3r_BkKPkVrZFaRgV9osZQVMd9psIrQsT3vfXh0AZ9EGU-fk-s4jtX8T63hDzerRnM"
+    },
+    {
+      "position": 4,
+      "title": "Brigitta Park",
+      "place_id": "ChIJ____nkwGbUcRtUuAJfmR-Z4",
+      "data_id": "0x476d064c9effffff:0x9ef991f925804bb5",
+      "data_cid": "11455347626455616437",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d064c9effffff%3A0x9ef991f925804bb5&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d064c9effffff%3A0x9ef991f925804bb5&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.2322576,
+        "longitude": 16.3713066
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ____nkwGbUcRtUuAJfmR-Z4",
+      "provider_id": "/g/11y029zv3x",
+      "rating": 5,
+      "reviews": 3,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Brigittapl., 1200 Wien, Austria",
+      "country": "Austria",
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdvBxt307ikkR8MJgiR7UsQZ2A0nD4XC1_Kt7Oxlb1Lv-g1dFhXSAQWSUlHJq4u5nydY-JO3EhVnfKMoErZHh3mtLtyh-ORoLxjXF3WCYQTryRK-VgRV7HHyBWpr2D8FWpx0mM1YHpRotk=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/V-XZAXicHcTbboIwGADgJ6q01gWzZBegkoZDCFU5eGMUWOuAlrW_Ci-5-72Nid_F9_8nAUb76Ti9pAuhtejbu21NrRW0Cha1HhxhLtai2jqe53dD3Dz8CSh2b13H10kobtw92uy09LDarsoNOUfgplN_JfEDCdIEstx7WbE_9iz8Xd0_1NxUKEzpTubqO0r0zpyYpAPEMEuUch1PP2VAi02VHczMI5QLnruMzX4xmuV2HRTjhIeEVGzkGrqvJ8EYI_m-RuoFK1tGpA"
+    },
+    {
+      "position": 5,
+      "title": "Richard Waldemar Park",
+      "place_id": "ChIJg4z_if4HbUcRjUaRjkDnONc",
+      "data_id": "0x476d07fe89ff8c83:0xd738e7408e91468d",
+      "data_cid": "15508399581306111629",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d07fe89ff8c83%3A0xd738e7408e91468d&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d07fe89ff8c83%3A0xd738e7408e91468d&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.1937181,
+        "longitude": 16.3522978
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJg4z_if4HbUcRjUaRjkDnONc",
+      "provider_id": "/g/11j97c32l4",
+      "rating": 4.3,
+      "reviews": 47,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Hofmühlgasse 12, 1060 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeGMRo5r1zV6x-noOpuxDsuEm2u45BouPaL0IjlZ5zxekbYw6KgD5-x8lA9uQIe4Gh7YCFpj_6DmFFY8Z8OBvP4FQXV08aKYQCxYuzf1g6CuekoV6fYzCZ7tuc9DFQoNu9h8Pb_=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/4xj5CXicHcRJboMwFADQEzmYFBwTqQuGOooyQReoZhMRy7EVBiPsn1hcMGfobSr1Ld7vWzs32W0Q9PpjpYxRvQQrZ2FGJ0e3EmYI1Nxai4QN0jTrhqPcnb5NPIdLTTwazWUCX1j4GtYQxZmBsj3i_aNv4sXL7sZf5KCKGHnapwlUexnt9IbnbHpcSTEwxmlDL9mzjFj1U2PaHniVew7LPVQkB9mZmtz5kjcbByIpWGXOkGha3q6frxBjjPT_Ao1_e6VEgQ"
+    },
+    {
+      "position": 6,
+      "title": "Reinl Park",
+      "place_id": "ChIJIUfCTP6nbUcRwWRcMGWPxps",
+      "data_id": "0x476da7fe4cc24721:0x9bc68f65305c64c1",
+      "data_cid": "11224816786033370305",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476da7fe4cc24721%3A0x9bc68f65305c64c1&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476da7fe4cc24721%3A0x9bc68f65305c64c1&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.196082499999996,
+        "longitude": 16.3113267
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJIUfCTP6nbUcRwWRcMGWPxps",
+      "provider_id": "/g/1ywpnv9zg",
+      "rating": 3.9,
+      "reviews": 152,
+      "unclaimed_listing": true,
+      "type": "State park",
+      "types": [
+        "State park"
+      ],
+      "address": "Märzstraße K, 1140 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "website": "https://www.wien.gv.at/umwelt/parks/",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLd4yqPhsVXycAZE-GEe9UpxPRNOV2gtjL_X8EKHAPmd5yp2J_u51TsVBAFHoO_fd3cDQNliCtMUv0vseg1egB55bJHuDk35H2mg5B15FkFQcO2IwRV-SiT8TEsaR-gFh0K968w=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/a6maqHicHcTdboIwGADQJ6oUWA0u2UURGKITRCRkN8SV2iI_ZX5Fxgv6DnsbE8_F-X9IrQd4N4xW2guhlGj5CPzGVK95rxdMdYa4nQEQA4NSt-l21dv8m0jIi5nRbx99-nx1Gv6SdB_nltDXXVk4_jakSVeRebCiciRmBrlLg1DF5aWymXfYt_Vaf53u-A5cmFy4hPxE4eg1NgmtThDXJEETHFhsbaY0R8c6czIfzikSgcTb1dKZPiYTY4zka4b6J_DmQrE"
+    },
+    {
+      "position": 7,
+      "title": "Grete-Rehor-Park",
+      "place_id": "ChIJxw25M5EHbUcRunkZVEBWPfE",
+      "data_id": "0x476d079133b90dc7:0xf13d5640541979ba",
+      "data_cid": "17383144971008833978",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d079133b90dc7%3A0xf13d5640541979ba&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d079133b90dc7%3A0xf13d5640541979ba&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.2069547,
+        "longitude": 16.3585024
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJxw25M5EHbUcRunkZVEBWPfE",
+      "provider_id": "/g/1vf9b4pr",
+      "rating": 4.5,
+      "reviews": 141,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park",
+        "Tourist attraction"
+      ],
+      "address": "Dr.-Karl-Renner-Ring 1, 1010 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdHlKEmwtTdGdD2MbwJ0rJHOBtGfkUQAhsgUHnEZ8aE3kAJiZlNTndV54TGu3bnw9ZEC4gfcDizKxQdiDeuX-98PRe1drs8FuG7ZbyUu00ecwxTdYluc2pQUiODgbUt9nnjxCjd=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/IkcUP3icHcTbDoIgAADQL1IpbWlbD5am0242aeVbAuEF0QkM6wf7hv6mrfNwvp9KykGsLItVtkn7njKiBBlRzyXh0kR9Z9HxIYSBhOX7m7bb45ilYadljiMczA-lTsCYxKeNjJ4tzPxKUBjzsHAfod36SV2wY87xdeHkkbJLrr0i3Dr0iYL6nU4ZrgOibobnni9khkfh7lS0LMoXVAAQpKcc35lC8yGD9SmgJZQe5820bfBazwAARvUfGfwHrO5F2g"
+    },
+    {
+      "position": 8,
+      "title": "Augarten Haupttor",
+      "place_id": "ChIJ3Wu4CdwHbUcRcid6MhUJWo4",
+      "data_id": "0x476d07dc09b86bdd:0x8e5a0915327a2772",
+      "data_cid": "10257521087935555442",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d07dc09b86bdd%3A0x8e5a0915327a2772&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d07dc09b86bdd%3A0x8e5a0915327a2772&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.2221571,
+        "longitude": 16.3764909
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ3Wu4CdwHbUcRcid6MhUJWo4",
+      "provider_id": "/g/11j8gh106y",
+      "rating": 4.6,
+      "reviews": 210,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Obere Augartenstraße 1, 1020 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLezrTBu7W_k_OLIsmPQ48oMZSh5lNG7M1YDvUbAS-6g-uqQdFnW2URchYKPyXwKM34kfuUZnNJ4oQBQmWMDfSz3dChBBjZ7WV5F7tehNNDDgDMxW_t4H20HtXTkYnynrhVuBhzlpw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/vJ-5inicHcRRboIwGADgE1VQcBgTH-ga56ZlImKFF7LV2j8DWkdbUW7oEbzNkn0P3_MB1l7M3PMaCEZSa9kIZ0THtbJC2RHXrSe7L2MQN14c47rdiKHbYxexqq4-N--m3abhTNMyg2mTvEV0XJBr_h1n6EUi95uelopN8h2HYr29H_s1DcL67PJSJR-hTnHaMkrO2RCcXgHjnzJih-kysgKShBBJ6I1VNlxN_JU97utC3VUHB4dhaC79oh_7vo_gf47UH_fpRcQ"
+    },
+    {
+      "position": 9,
+      "title": "Joseph-Kainz-Park",
+      "place_id": "ChIJw91GdX8IbUcRHxLuFe2Pyqk",
+      "data_id": "0x476d087f7546ddc3:0xa9ca8fed15ee121f",
+      "data_cid": "12234749586143318559",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d087f7546ddc3%3A0xa9ca8fed15ee121f&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d087f7546ddc3%3A0xa9ca8fed15ee121f&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.233618299999996,
+        "longitude": 16.334126899999998
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJw91GdX8IbUcRHxLuFe2Pyqk",
+      "provider_id": "/g/11c74hb875",
+      "rating": 4.5,
+      "reviews": 92,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park",
+        "Tourist attraction"
+      ],
+      "address": "Hasenauerstraße 54, 1180 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdc6Nj6XPjerHoNazbsTiSMqBSyXAG70UZ2AtWRFoeVr0mJIdJJx4r4P_cNRAiOXKDAKHwR2HUytP6LGMuomyW0v4aC5zjqmQZk0gxtvo0eJ-c8qBFb2jJTlGP31W7WUtc--w7h=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/FTSFrnicHcRdDoIgAADgE5Fopq2tB6ylUZqZpuulGTF_EkmgzC7YGbpNW9_D9_2USt3lTNOacjwqOC8a-pBUEN4q2qoR4UwrRC4lIFJDyLmx7ZVYQW1lYU2Fx4P8fZFxdfA75zBkyLVhcjKQSqMVp0cBGV5fMX6ZwgzPJIhQtcs2S7Tx-sjwkkGF1tb1H5wNKXya-WLyrju2P91g8VJPDikGZNo5q4tR47hxw7Ge2mmiCAC9Xc57HUIIyv8EtD-Jg0R0"
+    },
+    {
+      "position": 10,
+      "title": "Anton-Kummerer-Park",
+      "place_id": "ChIJhZ01lzUGbUcRRPE9R_YqlF8",
+      "data_id": "0x476d063597359d85:0x5f942af6473df144",
+      "data_cid": "6887176967401894212",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d063597359d85%3A0x5f942af6473df144&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d063597359d85%3A0x5f942af6473df144&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.235208199999995,
+        "longitude": 16.363312
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJhZ01lzUGbUcRRPE9R_YqlF8",
+      "provider_id": "/g/1tm67qsx",
+      "rating": 4.1,
+      "reviews": 299,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park",
+        "Tourist attraction"
+      ],
+      "address": "Treustraße 94, 1200 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeQmPHqsWfJ8-qGzLC-tsLfnIXar_1sDVpLbxt1pTDau-lx3no92DLqwpOIX0v1ui2U8f8Zv4VW3BAZHrNRUeSsFiT8g14iKEndxuBWNBb6HoILgGp0EKnhpyazi7EpaeIQ7zeW=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/MwkmOHicHcTdToMwGADQJyq0YxG2xAsQBKTZnPth4cYULIUIbeErG_KCewbfxsRzcX4fjTEatrbdNY4llBIdn4CPlZKGS2NVqrfFyABQBbbvB9895Yf-PRkgr988NMQLfUEGaC3TKxs_CYQXTcvZEH0K2YS62ZFqswrpcNf79IpvZGpXZ6_2itv6kjuBXyTj7uPMj_DanjxB1m0Wya95CvJdUD4lKqUi1jjKZKN_2NK6kWY8PbgLz5_vBGOMmv8rJP8ArwlFRQ"
+    },
+    {
+      "position": 11,
+      "title": "Parkanlage Wichtelgasse",
+      "place_id": "ChIJjc-VJgoIbUcRr7Rs50viN0g",
+      "data_id": "0x476d080a2695cf8d:0x4837e24be76cb4af",
+      "data_cid": "5203876710082983087",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d080a2695cf8d%3A0x4837e24be76cb4af&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d080a2695cf8d%3A0x4837e24be76cb4af&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.212646899999996,
+        "longitude": 16.3211493
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJjc-VJgoIbUcRr7Rs50viN0g",
+      "provider_id": "/g/11f38t3f05",
+      "rating": 4.3,
+      "reviews": 52,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Friedrich-Kaiser-Gasse 70-72, 1160 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLfArdu32cZfZ-_LzuCw_zBVmTlBpGQQhrA-Ypt2zzootEQypvh9VKQzZ_hlWCZOwXiCdvLfpW5DHsGABi7UJwyogzMuQwa2mEel2f73aYW7mLb00SnLj8TpDFNFamc3eOSZCklf=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/H7sGSXicHcRdbsIgAADgE2Gxjaku2QOtf1GcITo7eWkqQlGhkEIlcsGdYbcx2ffw_f1K7637SBIls1FrTKv44HjPTOd550fM6KTtG-cAcwlCxUNjgfrrkKWMCgpqHIcy1LE46aMq7IoQ2SNwtj6N0Ri_IC_7lLPTlkRaS1WVdB9-buX1iYWtJvO1W6Hiln9vwsu0cTeQ0KR6wVUq8qw5V7nGFwgPHb5Pj3a-_Fo2mmV8f6DlQ4nPMIYQAvk_A90bRg9Ghw"
+    },
+    {
+      "position": 12,
+      "title": "Zirkuswiese",
+      "place_id": "ChIJ57DWUBEHbUcRs5HWOkN8OVs",
+      "data_id": "0x476d071150d6b0e7:0x5b397c433ad691b3",
+      "data_cid": "6573421759315743155",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d071150d6b0e7%3A0x5b397c433ad691b3&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d071150d6b0e7%3A0x5b397c433ad691b3&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.211513599999996,
+        "longitude": 16.4015692
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJ57DWUBEHbUcRs5HWOkN8OVs",
+      "provider_id": "/g/1tgh1s9z",
+      "rating": 4.6,
+      "reviews": 139,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Hauptallee 128, 1020 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf49tUJ16uheMxXjMAoZ4bnG4c78M16knZowfRiCcnPLU3ENiO61nT3_kR4psWMIKr1yzE0ie0Or2vwGdFbtGdFV-qyPkH5H-NnFAElyavmVPqhPBBQUo6QKdP3lav9JYkwqznD=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/2heX43icHcRNcoIwGADQE0USQdTOdAGKWhUNTvFv08EYCQ18ERJBvGDP4G3q-Bbv-SeMueoPy8qF3UmVSnN-07xiCgwH02GqsNIq0RoxbXmeL4vlxRmaeE7cm-Dhff8beuronGDqsP4gJK6Eo2oum2zEgC5jO1hla5fAt_0jN85V78KvRUXaR4AzjtdVt26m58nJvNqisqVy1puhFUy8IG-TutjSUlDfj2LlRosztfOkHs4PsikfMP5sCMYYifcMwT9Q4UTF"
+    },
+    {
+      "position": 13,
+      "title": "Liechtensteinpark",
+      "place_id": "ChIJU-L_P-kHbUcRy7lnJAJlnoM",
+      "data_id": "0x476d07e93fffe253:0x839e65022467b9cb",
+      "data_cid": "9484128925163960779",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d07e93fffe253%3A0x839e65022467b9cb&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d07e93fffe253%3A0x839e65022467b9cb&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.2238062,
+        "longitude": 16.3591358
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJU-L_P-kHbUcRy7lnJAJlnoM",
+      "provider_id": "/g/11gxrwccz4",
+      "rating": 4.7,
+      "reviews": 1026,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Liechtensteinstraße 48, 1090 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Closed · Opens 6:45 AM Mon",
+      "hours": "Closed · Opens 6:45 AM Mon",
+      "operating_hours": {
+        "sunday": "6:45 AM–8:45 PM",
+        "monday": "6:45 AM–8:45 PM",
+        "tuesday": "6:45 AM–8:45 PM",
+        "wednesday": "6:45 AM–8:45 PM",
+        "thursday": "6:45 AM–8:45 PM",
+        "friday": "6:45 AM–8:45 PM",
+        "saturday": "6:45 AM–8:45 PM"
+      },
+      "phone": "+43 1 40008042",
+      "website": "https://www.wien.gv.at/umwelt/parks/anlagen/liechtenstein.html",
+      "description": "Garden grounds of an 18th-century palace. Lawns, flowerbeds & water features in the baroque-style grounds of an 18th-century royal residence.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLe-3aoBvW5bb6zWymPIC5zf02P5gvUp9tPTcwo3fgKr-MKylI8Z5VRIYiKAPhXdwrXsLLOjiC9KO-TdNAejEzBGsHdUBVSTrdYv-UkpOw5_rbcV76eRe6jFS-z1IkV8uT-F1GJr=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/0E_5OnicHcRJDoIwFADQE30BSXFIXIARRVCIMogbI6UWmUraCpELegZvY-JbvO-nkLITS0WpC31CGaM1eQnCMWslaeUEs0ah_C4EYKGYplU1HgH9zqw-QVlmjMm7CZw1Gh_qNEC0j7qFDEI8MP1BXQ4H91078yuKT076dM2guOQDvwjP88vneuH6EOZHk5Sb0dqKXR5Z8TnkedpDVHX-gG48w_HMICdilPYZRs2p4vkrBFvb7vlq0FRVheI_hvYHeJlEYw"
+    },
+    {
+      "position": 14,
+      "title": "Linnépark",
+      "place_id": "ChIJWxeBpCoGbUcROHeDR_8KOFo",
+      "data_id": "0x476d062aa481175b:0x5a380aff47837738",
+      "data_cid": "6500958153642047288",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d062aa481175b%3A0x5a380aff47837738&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d062aa481175b%3A0x5a380aff47837738&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.2365784,
+        "longitude": 16.33829
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJWxeBpCoGbUcROHeDR_8KOFo",
+      "provider_id": "/g/11cs1sjk1f",
+      "rating": 4.5,
+      "reviews": 26,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Linnépl. 1-5, 1190 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeh_LMY4HDhgwaIpEdfkmjYgOQBjLczy7o3Wu9W8uom0nKdZBUXOnat2dQIgz_yxfK0xrZrrcHR-4P_2LkKph07XpMOWOEYKmSeG7aDLCd-dmw_yjdg7ilpgtjy4lKWjn-U81ornQ=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/BcwBPHicHcRdCoIwAADgEy1XCVbQQ1ZUbGEWYfYisq2t6X7YJmY37AjdJuh7-L4fEYL1iyhqxXTEjeEt6zxzxOjAdBgRoyLuau8B8dFqlTYKM1HhYxnvN4L39cFu6aNRsuRZnkpM3kNipkU3L2adUVAjek-vt0zXYULzA39Xw-uB4MvdnSP7M4hP1QQ3yAqY3OwxK7JtidSF7ZJ6g9cUUNVXg6Q8ebaWBznELSqkBtfZ2DidL_sxhBCI_wToH66dR0I"
+    },
+    {
+      "position": 15,
+      "title": "Leon Zelmann Park",
+      "place_id": "ChIJMdprMWEHbUcRLFzhHSr9slo",
+      "data_id": "0x476d0761316bda31:0x5ab2fd2a1de15c2c",
+      "data_cid": "6535564366599773228",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d0761316bda31%3A0x5ab2fd2a1de15c2c&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d0761316bda31%3A0x5ab2fd2a1de15c2c&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.1915763,
+        "longitude": 16.3926752
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJMdprMWEHbUcRLFzhHSr9slo",
+      "provider_id": "/g/11c48c6c1j",
+      "rating": 4.1,
+      "reviews": 40,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park",
+        "Tourist attraction"
+      ],
+      "address": "Aspangstraße 2, 1030 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "phone": "+43 1 40008042",
+      "website": "https://www.wien.gv.at/umwelt/parks/anlagen/zelman.html",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdax1y8_Y1N-to5lKKHkKgfBJG9sD81a1zB_VeWJ3HQuljeipSLKjlo5ukD0DvjOiI5xmC-acbNNaBZZgwncZATb3vcFcXIv89ffYkQDb_ym-z9V82sGV9ayw0VbxOfvJ0i5MK8ew=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/05boQnicHcTbCoIwAADQL1puiTCDHjTp4sqIwsoXmWvOy3TR5q0_7BP6m6DzcL6fwpinXliWLOyZUEpI3mn-Yqo1vDUzphpLvKjWgGnL8_y62T_oiCac3lEEjHIkIduaiNwPN64OMKLo7acxv4b29tTJipfP855UUjldHcCgr47lzhmbFaAsiyLqJ4kYWpZ4l8zu2Zrddj128_xen4IsnRrwdmM815vYpdMA42w85n0IS-dAMB-WA4IQguI_A-0PDSRFqg"
+    },
+    {
+      "position": 16,
+      "title": "Resting Area",
+      "place_id": "ChIJHwFIyAKpbUcROCaKYYE9LxI",
+      "data_id": "0x476da902c848011f:0x122f3d81618a2638",
+      "data_cid": "1310333642484622904",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476da902c848011f%3A0x122f3d81618a2638&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476da902c848011f%3A0x122f3d81618a2638&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.1814411,
+        "longitude": 16.4181259
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJHwFIyAKpbUcROCaKYYE9LxI",
+      "provider_id": "/g/11jprz49vx",
+      "rating": 5,
+      "reviews": 5,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Schütte-Lihotzky-Weg, 1110 Wien, Austria",
+      "country": "Austria",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLf9PZNf8PjAZkEOgH82YgO5fzlEHVfl4ivQ2HcVrTfuL0QWGj-M6ZaGYWYxFtijC_lTWWjNIPRbr8HbStmL8AkxIz9O7Yl0QCTCCBgJ9j3qVSCBjfWVfqDRI2AWTDunC59Ttl2A=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/wiRFoXicHcTbDoIgAADQLzLJbtrWA9JFm6UWk-lLUyYYopZgtX6wb-hv2joP5_uptL6ppWnKajLiXcdlOaiyp12ry1aPaNeYvM-VMqgyIXTrJmBOlB2ZHQmY1ZuQe7aV8nDG3nLjJUxOr4_Y8mjSYzYEICY7YRzmWb5LSfra6qtAF4kJEUc_OhW97RVn3QQ2rF_-2wkXqQQxwgi5fO-IyT05I1cwkrD7-uRbkOD10KKZg7W04Oo5BgAY1X9qtD9AQUO6"
+    },
+    {
+      "position": 17,
+      "title": "Allerheiligenpark",
+      "place_id": "ChIJVVWxbFAGbUcRcsz_VjP4Ric",
+      "data_id": "0x476d06506cb15555:0x2746f83356ffcc72",
+      "data_cid": "2830222315235560562",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d06506cb15555%3A0x2746f83356ffcc72&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d06506cb15555%3A0x2746f83356ffcc72&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.2383902,
+        "longitude": 16.384887
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJVVWxbFAGbUcRcsz_VjP4Ric",
+      "provider_id": "/g/11fsmvchnh",
+      "rating": 4.2,
+      "reviews": 56,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Allerheiligenpl. 5, 1200 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open now",
+      "website": "http://wien.gv.at/umwelt/parks/anlagen",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWu4dVEI618uUzyRJQwBt9_4crpnu6WVGNEAZPhmhuw5bhYAWxNSbZ3qI0N3alJqLYODjkVCdBHTqH_9hu14B8DVyrE3VMEXL98DCK41W7okJpguVAhrwOJ7dCwXDQQv7gE_3X=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/YAtFHXicHcTbboIwAADQL0IgZQImeyjQTBlDmVrQF6KFtBmXQi_r3A_6Df6NiefhPO5MqUmubLtnYEE5p32rZSsIH1U7qgXhg03FRUqLSBvCqBuyttReg9Fm6Qb6-H_7TgsTqbD2iJhGvSzxR47geccGps3blZ1g-Zfvr2cwb5wcXPp0zk7b5KfDcROtD_O6Dpl2vShI8E0ggL9QlYVBEn96bunzLp2oxpAJs039JjZVUhS_PkU1qN6N6ziOxV4Ta3wCX7ND8g"
+    },
+    {
+      "position": 18,
+      "title": "Stadtpark",
+      "place_id": "ChIJQ0Ey03UHbUcRRcGuE0WeIL8",
+      "data_id": "0x476d0775d3324143:0xbf209e4513aec145",
+      "data_cid": "13772181680019128645",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d0775d3324143%3A0xbf209e4513aec145&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d0775d3324143%3A0xbf209e4513aec145&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.204733499999996,
+        "longitude": 16.3796601
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJQ0Ey03UHbUcRRcGuE0WeIL8",
+      "provider_id": "/m/04zcx9",
+      "rating": 4.6,
+      "reviews": 31389,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park",
+        "City park",
+        "Tourist attraction"
+      ],
+      "address": "Parkring 1, 1010 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "phone": "+43 1 40008042",
+      "website": "https://www.wien.gv.at/umwelt/parks/anlagen/stadtpark.html",
+      "description": "19th-century public park with a river. English-style, 19th-century public park with a river, ornate bridges & gilded Johann Strauss statue.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot",
+            "Wheelchair accessible seating"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLerqePlteteLzcGNoN94tdBxxPI61qGS2sYHupj5-Y1ZpMq8ptx6gYZWC7cjMerrswm8dMayOJieQc_-4x_UuKTnsDaYyz_ay3lQ9VoklJ0Cz6la68f4zOQMz_YNTk5pbsEBwvaO10l3Gf9=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/wWF1UHicHcTBToMwGADgJ-oowhiYeBjTsM0BI05NdyG1-wcbhZa2CPQlPfs2Jn6H7_enNkbqR8fhtbeohKg4DBoUE52BziyYaJ1KUa0R0856HTftAVQPR27AwMGyJBNZ5JtLPE3HXeD2yduDJttB3peIuGeZ9qE0U1CR8-dmxe4pKKXHNrykdM73NyhYifypfB9eT51-pmS2JZ09XkQfouF7vLEBp0F49W1epLYk2alZyi_9Eo_fNHcx95Jr9DS6GGNU_89Q9webBElW"
+    },
+    {
+      "position": 19,
+      "title": "Türkenschanzpark",
+      "place_id": "ChIJA65nM34IbUcRToCv4--54vw",
+      "data_id": "0x476d087e3367ae03:0xfce2b9efe3af804e",
+      "data_cid": "18222331482262700110",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d087e3367ae03%3A0xfce2b9efe3af804e&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d087e3367ae03%3A0xfce2b9efe3af804e&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.2348279,
+        "longitude": 16.3338496
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJA65nM34IbUcRToCv4--54vw",
+      "provider_id": "/g/120scnkn",
+      "rating": 4.8,
+      "reviews": 7189,
+      "type": "Park",
+      "types": [
+        "Park"
+      ],
+      "address": "Hasenauerstraße Türkenschanzpark, 1180 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Closed · Opens 6 AM Mon",
+      "hours": "Closed · Opens 6 AM Mon",
+      "operating_hours": {
+        "sunday": "6 AM–8 PM",
+        "monday": "6 AM–8 PM",
+        "tuesday": "6 AM–8 PM",
+        "wednesday": "6 AM–8 PM",
+        "thursday": "6 AM–8 PM",
+        "friday": "6 AM–8 PM",
+        "saturday": "6 AM–8 PM"
+      },
+      "phone": "+43 1 40008042",
+      "website": "https://www.wien.gv.at/umwelt/parks/anlagen/tuerkenschanzpark.html",
+      "description": "Lush park with playgrounds & monuments. Public green space featuring ponds, monuments, play areas for kids & an observation tower.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdUfK1EvbhLeVgDH5sjR2ZRas6skwtOu9UCNCTi9xBcxIXTzzlKON6wA_NrCzgmPeRCndwWEaZa826Z4tqzDqhYlLqR1AjhBy6k5MV7pBiJ7ZwG7Z1PDdzigYWfeCEfY2VcwKytiw=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/4nWsv3icHcRJDoIwAADAFyGLCmriAQpxAdEQROnFYCktsgmtVvtDn-BvTJzDfD-U8ztbqGpNxyPSdaTGD4YH1LUct3yEukYlQ8aYgphq207VBPmx8HXveaUBToi7nrJbZMAoYyarBN8_5kcQgricvxz02pxjKWt_H5rCvoQDkKQ54Ai0uTh5GcxmhgknvJduT9M66CPdvlHnbVbTXWLdnXJrQbGyoH5wc1mS9FRg4BWpkSDhv3kplkLXNE2h_5HS_gB5vkbN"
+    },
+    {
+      "position": 20,
+      "title": "Jesuitenwiese",
+      "place_id": "ChIJk7EBpWoHbUcRImamxCdy8Tc",
+      "data_id": "0x476d076aa501b193:0x37f17227c4a66622",
+      "data_cid": "4031128656601835042",
+      "reviews_link": "https://serpapi.com/search.json?data_id=0x476d076aa501b193%3A0x37f17227c4a66622&engine=google_maps_reviews&hl=en",
+      "photos_link": "https://serpapi.com/search.json?data_id=0x476d076aa501b193%3A0x37f17227c4a66622&engine=google_maps_photos&hl=en",
+      "gps_coordinates": {
+        "latitude": 48.2052863,
+        "longitude": 16.4039508
+      },
+      "place_id_search": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&place_id=ChIJk7EBpWoHbUcRImamxCdy8Tc",
+      "provider_id": "/g/1tj498bv",
+      "rating": 4.7,
+      "reviews": 2808,
+      "unclaimed_listing": true,
+      "type": "Park",
+      "types": [
+        "Park",
+        "Tourist attraction"
+      ],
+      "address": "Rotundenallee 15, 1020 Wien, Austria",
+      "country": "Austria",
+      "open_state": "Open 24 hours",
+      "hours": "Open 24 hours",
+      "operating_hours": {
+        "sunday": "Open 24 hours",
+        "monday": "Open 24 hours",
+        "tuesday": "Open 24 hours",
+        "wednesday": "Open 24 hours",
+        "thursday": "Open 24 hours",
+        "friday": "Open 24 hours",
+        "saturday": "Open 24 hours"
+      },
+      "phone": "+43 1 40004001",
+      "website": "http://www.wien.gv.at/",
+      "description": "Grassy expanse in the Prater park. Large meadow in the Prater public park with shady picnic spots, a playground & an outdoor gym.",
+      "extensions": [
+        {
+          "accessibility": [
+            "Wheelchair accessible entrance",
+            "Wheelchair accessible parking lot"
+          ]
+        }
+      ],
+      "thumbnail": "https://lh3.googleusercontent.com/grass-cs/AABkmLdux5st8Q62LCqmLn0H4QwfoEGZ7agzLX4__v16A446h-re9-s4J2U4Ti3MJDP2z0w8XmmnUMcYpX0hZ5miuIGdmqeCSgPtErZlbCxM-evOYWPpYgN9prXcJEtBeTh5s5yaY67f=w1000-h1000-c-n",
+      "serpapi_thumbnail": "https://serpapi.com/images/url/FJtWH3icHcRRDoIgAADQE5FkaNnWh5qrnJYtW-pPMyJoCRhgVhfsDN2mrffxvh9mTKunltWw0YBKSRvSaaKwFIYIM8CSW1TVWgOsLd8Pbjw5d09Hm8nWtZPwzhMBl2jbX2S0qMY1fScFOh4fQ9dHyGVAEQ9oFNt7lF9HaTzP7DfsJwXnYp_isi0gqxx-7VaLM7-TcEczE6mqOYXPFJDHpjxkbUnXXqsKHEcmIDlztPOqS3d8mfVDCCFg_zEQPybxRFI"
+    }
+  ],
+  "serpapi_pagination": {
+    "next": "https://serpapi.com/search.json?engine=google_maps&google_domain=google.com&hl=en&ll=%4048.20849%2C16.37208%2C14z&q=quiet+park&start=20&type=search"
+  }
+}
